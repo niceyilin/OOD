@@ -1,0 +1,31 @@
+Welcome to Restaurant App !
+Querying restaurant with name Shanghai...
+	Found 2 matching restaurant :
+		-> Shanghai Family
+		-> Shanghai House
+Querying Lunch Menu @ Shanghai Family restaurant...
+	Found 3 matching dishes :
+		-> Rice, price: $1.0
+		-> Sweet Rib, price: $9.99
+		-> Fish Soup, price: $12.99
+Placing order for user Yilin with below dishes...
+	-> Rice
+	-> Sweet Rib
+Order Status is : CREATED
+Order Total is $10.99
+Order Status is : ON_DELIVERY
+.... Delivering ...
+Order Status is : COMPLETED
+Adding Yilin's review to restaurant Shanghai Family...
+	 : Sweet and Soy Rib is very yummy !!!
+Adding Yilin's review to restaurant Shanghai House...
+	 : Doesn't look good .
+Reviews for restaurant Shanghai Family : 
+	-> Sweet and Soy Rib is very yummy !!!
+Reviews for restaurant Shanghai House : 
+	-> Doesn't look good .
+Reviews made by Yilin : 
+	-> Sweet and Soy Rib is very yummy !!!
+	-> Doesn't look good .
+
+Process finished with exit code 0

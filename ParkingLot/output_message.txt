@@ -1,0 +1,167 @@
+"C:\Program Files (x86)\Java\jdk1.8.0_101\bin\java" -Didea.launcher.port=7533 "-Didea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 2016.2.5\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files (x86)\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_101\jre\lib\deploy.jar;C:\Program Files (x86)\Java\jdk1.8.0_101\jre\lib\ext\access-bridge-32.jar;C:\Program Files (x86)\Java\jdk1.8.0_101\jre\lib\ext\cldrdata.jar;C:\Program Files (x86)\Java\jdk1.8.0_101\jre\lib\ext\dnsns.jar;C:\Program Files (x86)\Java\jdk1.8.0_101\jre\lib\ext\jaccess.jar;C:\Program Files (x86)\Java\jdk1.8.0_101\jre\lib\ext\jfxrt.jar;C:\Program Files (x86)\Java\jdk1.8.0_101\jre\lib\ext\localedata.jar;C:\Program Files (x86)\Java\jdk1.8.0_101\jre\lib\ext\nashorn.jar;C:\Program Files (x86)\Java\jdk1.8.0_101\jre\lib\ext\sunec.jar;C:\Program Files (x86)\Java\jdk1.8.0_101\jre\lib\ext\sunjce_provider.jar;C:\Program Files (x86)\Java\jdk1.8.0_101\jre\lib\ext\sunmscapi.jar;C:\Program Files (x86)\Java\jdk1.8.0_101\jre\lib\ext\sunpkcs11.jar;C:\Program Files (x86)\Java\jdk1.8.0_101\jre\lib\ext\zipfs.jar;C:\Program Files (x86)\Java\jdk1.8.0_101\jre\lib\javaws.jar;C:\Program Files (x86)\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_101\jre\lib\jfxswt.jar;C:\Program Files (x86)\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_101\jre\lib\management-agent.jar;C:\Program Files (x86)\Java\jdk1.8.0_101\jre\lib\plugin.jar;C:\Program Files (x86)\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Users\Yilin\IdeaProjects\ParkingLot\out\production\ParkingLot;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 2016.2.5\lib\idea_rt.jar" com.intellij.rt.execution.application.AppMain ParkingLotApp
+
+
+ *** Welcome to Yilin's Parking Lot *** 
+This parking lot has 2 levels: 
+=> Level 1 : 20 available spots
+  -> Small Spot, num: 1, row: 1, level: 1, Vehicle: empty
+  -> Small Spot, num: 2, row: 1, level: 1, Vehicle: empty
+  -> Small Spot, num: 3, row: 1, level: 1, Vehicle: empty
+  -> Small Spot, num: 4, row: 1, level: 1, Vehicle: empty
+  -> Large Spot, num: 5, row: 1, level: 1, Vehicle: empty
+  -> Large Spot, num: 6, row: 1, level: 1, Vehicle: empty
+  -> Large Spot, num: 7, row: 1, level: 1, Vehicle: empty
+  -> Large Spot, num: 8, row: 1, level: 1, Vehicle: empty
+  -> Large Spot, num: 9, row: 1, level: 1, Vehicle: empty
+  -> Compact Spot, num: 10, row: 1, level: 1, Vehicle: empty
+  -> Compact Spot, num: 11, row: 2, level: 1, Vehicle: empty
+  -> Compact Spot, num: 12, row: 2, level: 1, Vehicle: empty
+  -> Compact Spot, num: 13, row: 2, level: 1, Vehicle: empty
+  -> Compact Spot, num: 14, row: 2, level: 1, Vehicle: empty
+  -> Compact Spot, num: 15, row: 2, level: 1, Vehicle: empty
+  -> Compact Spot, num: 16, row: 2, level: 1, Vehicle: empty
+  -> Compact Spot, num: 17, row: 2, level: 1, Vehicle: empty
+  -> Compact Spot, num: 18, row: 2, level: 1, Vehicle: empty
+  -> Compact Spot, num: 19, row: 2, level: 1, Vehicle: empty
+  -> Compact Spot, num: 20, row: 2, level: 1, Vehicle: empty
+=> Level 2 : 20 available spots
+  -> Small Spot, num: 1, row: 1, level: 2, Vehicle: empty
+  -> Small Spot, num: 2, row: 1, level: 2, Vehicle: empty
+  -> Small Spot, num: 3, row: 1, level: 2, Vehicle: empty
+  -> Small Spot, num: 4, row: 1, level: 2, Vehicle: empty
+  -> Large Spot, num: 5, row: 1, level: 2, Vehicle: empty
+  -> Large Spot, num: 6, row: 1, level: 2, Vehicle: empty
+  -> Large Spot, num: 7, row: 1, level: 2, Vehicle: empty
+  -> Large Spot, num: 8, row: 1, level: 2, Vehicle: empty
+  -> Large Spot, num: 9, row: 1, level: 2, Vehicle: empty
+  -> Compact Spot, num: 10, row: 1, level: 2, Vehicle: empty
+  -> Compact Spot, num: 11, row: 2, level: 2, Vehicle: empty
+  -> Compact Spot, num: 12, row: 2, level: 2, Vehicle: empty
+  -> Compact Spot, num: 13, row: 2, level: 2, Vehicle: empty
+  -> Compact Spot, num: 14, row: 2, level: 2, Vehicle: empty
+  -> Compact Spot, num: 15, row: 2, level: 2, Vehicle: empty
+  -> Compact Spot, num: 16, row: 2, level: 2, Vehicle: empty
+  -> Compact Spot, num: 17, row: 2, level: 2, Vehicle: empty
+  -> Compact Spot, num: 18, row: 2, level: 2, Vehicle: empty
+  -> Compact Spot, num: 19, row: 2, level: 2, Vehicle: empty
+  -> Compact Spot, num: 20, row: 2, level: 2, Vehicle: empty
+
+
+Parking vehicle with license number 9DVV ...
+Vehicle 9DVV is parked on level 1, row 1, spot 5 !
+
+Parking vehicle with license number XY123 ...
+Vehicle XY123 is parked on level 1, row 1, spot 6 !
+
+Parking vehicle with license number 1S34G ...
+Vehicle 1S34G is parked on level 1, row 1, spot 1 !
+
+Parking vehicle with license number 987GG ...
+Vehicle 987GG is parked on level 2, row 1, spot 5 !
+Vehicle 987GG is parked on level 2, row 1, spot 6 !
+Vehicle 987GG is parked on level 2, row 1, spot 7 !
+Vehicle 987GG is parked on level 2, row 1, spot 8 !
+Vehicle 987GG is parked on level 2, row 1, spot 9 !
+
+
+This parking lot has 2 levels: 
+=> Level 1 : 17 available spots
+  -> Small Spot, num: 1, row: 1, level: 1, Vehicle: Motocycle, with licenseNum 1S34G, parked
+  -> Small Spot, num: 2, row: 1, level: 1, Vehicle: empty
+  -> Small Spot, num: 3, row: 1, level: 1, Vehicle: empty
+  -> Small Spot, num: 4, row: 1, level: 1, Vehicle: empty
+  -> Large Spot, num: 5, row: 1, level: 1, Vehicle: Car, with licenseNum 9DVV, It has been parked
+  -> Large Spot, num: 6, row: 1, level: 1, Vehicle: Car, with licenseNum XY123, It has been parked
+  -> Large Spot, num: 7, row: 1, level: 1, Vehicle: empty
+  -> Large Spot, num: 8, row: 1, level: 1, Vehicle: empty
+  -> Large Spot, num: 9, row: 1, level: 1, Vehicle: empty
+  -> Compact Spot, num: 10, row: 1, level: 1, Vehicle: empty
+  -> Compact Spot, num: 11, row: 2, level: 1, Vehicle: empty
+  -> Compact Spot, num: 12, row: 2, level: 1, Vehicle: empty
+  -> Compact Spot, num: 13, row: 2, level: 1, Vehicle: empty
+  -> Compact Spot, num: 14, row: 2, level: 1, Vehicle: empty
+  -> Compact Spot, num: 15, row: 2, level: 1, Vehicle: empty
+  -> Compact Spot, num: 16, row: 2, level: 1, Vehicle: empty
+  -> Compact Spot, num: 17, row: 2, level: 1, Vehicle: empty
+  -> Compact Spot, num: 18, row: 2, level: 1, Vehicle: empty
+  -> Compact Spot, num: 19, row: 2, level: 1, Vehicle: empty
+  -> Compact Spot, num: 20, row: 2, level: 1, Vehicle: empty
+=> Level 2 : 15 available spots
+  -> Small Spot, num: 1, row: 1, level: 2, Vehicle: empty
+  -> Small Spot, num: 2, row: 1, level: 2, Vehicle: empty
+  -> Small Spot, num: 3, row: 1, level: 2, Vehicle: empty
+  -> Small Spot, num: 4, row: 1, level: 2, Vehicle: empty
+  -> Large Spot, num: 5, row: 1, level: 2, Vehicle: Bus, with licenseNum 987GG, It has been parked
+  -> Large Spot, num: 6, row: 1, level: 2, Vehicle: Bus, with licenseNum 987GG, It has been parked
+  -> Large Spot, num: 7, row: 1, level: 2, Vehicle: Bus, with licenseNum 987GG, It has been parked
+  -> Large Spot, num: 8, row: 1, level: 2, Vehicle: Bus, with licenseNum 987GG, It has been parked
+  -> Large Spot, num: 9, row: 1, level: 2, Vehicle: Bus, with licenseNum 987GG, It has been parked
+  -> Compact Spot, num: 10, row: 1, level: 2, Vehicle: empty
+  -> Compact Spot, num: 11, row: 2, level: 2, Vehicle: empty
+  -> Compact Spot, num: 12, row: 2, level: 2, Vehicle: empty
+  -> Compact Spot, num: 13, row: 2, level: 2, Vehicle: empty
+  -> Compact Spot, num: 14, row: 2, level: 2, Vehicle: empty
+  -> Compact Spot, num: 15, row: 2, level: 2, Vehicle: empty
+  -> Compact Spot, num: 16, row: 2, level: 2, Vehicle: empty
+  -> Compact Spot, num: 17, row: 2, level: 2, Vehicle: empty
+  -> Compact Spot, num: 18, row: 2, level: 2, Vehicle: empty
+  -> Compact Spot, num: 19, row: 2, level: 2, Vehicle: empty
+  -> Compact Spot, num: 20, row: 2, level: 2, Vehicle: empty
+
+Vehicle 9DVV is leaving level 1, row 1, spot 5 !
+
+Vehicle XY123 is leaving level 1, row 1, spot 6 !
+
+Vehicle 1S34G is leaving level 1, row 1, spot 1 !
+
+Vehicle 987GG is leaving level 2, row 1, spot 5 !
+Vehicle 987GG is leaving level 2, row 1, spot 6 !
+Vehicle 987GG is leaving level 2, row 1, spot 7 !
+Vehicle 987GG is leaving level 2, row 1, spot 8 !
+Vehicle 987GG is leaving level 2, row 1, spot 9 !
+
+This parking lot has 2 levels: 
+=> Level 1 : 20 available spots
+  -> Small Spot, num: 1, row: 1, level: 1, Vehicle: empty
+  -> Small Spot, num: 2, row: 1, level: 1, Vehicle: empty
+  -> Small Spot, num: 3, row: 1, level: 1, Vehicle: empty
+  -> Small Spot, num: 4, row: 1, level: 1, Vehicle: empty
+  -> Large Spot, num: 5, row: 1, level: 1, Vehicle: empty
+  -> Large Spot, num: 6, row: 1, level: 1, Vehicle: empty
+  -> Large Spot, num: 7, row: 1, level: 1, Vehicle: empty
+  -> Large Spot, num: 8, row: 1, level: 1, Vehicle: empty
+  -> Large Spot, num: 9, row: 1, level: 1, Vehicle: empty
+  -> Compact Spot, num: 10, row: 1, level: 1, Vehicle: empty
+  -> Compact Spot, num: 11, row: 2, level: 1, Vehicle: empty
+  -> Compact Spot, num: 12, row: 2, level: 1, Vehicle: empty
+  -> Compact Spot, num: 13, row: 2, level: 1, Vehicle: empty
+  -> Compact Spot, num: 14, row: 2, level: 1, Vehicle: empty
+  -> Compact Spot, num: 15, row: 2, level: 1, Vehicle: empty
+  -> Compact Spot, num: 16, row: 2, level: 1, Vehicle: empty
+  -> Compact Spot, num: 17, row: 2, level: 1, Vehicle: empty
+  -> Compact Spot, num: 18, row: 2, level: 1, Vehicle: empty
+  -> Compact Spot, num: 19, row: 2, level: 1, Vehicle: empty
+  -> Compact Spot, num: 20, row: 2, level: 1, Vehicle: empty
+=> Level 2 : 20 available spots
+  -> Small Spot, num: 1, row: 1, level: 2, Vehicle: empty
+  -> Small Spot, num: 2, row: 1, level: 2, Vehicle: empty
+  -> Small Spot, num: 3, row: 1, level: 2, Vehicle: empty
+  -> Small Spot, num: 4, row: 1, level: 2, Vehicle: empty
+  -> Large Spot, num: 5, row: 1, level: 2, Vehicle: empty
+  -> Large Spot, num: 6, row: 1, level: 2, Vehicle: empty
+  -> Large Spot, num: 7, row: 1, level: 2, Vehicle: empty
+  -> Large Spot, num: 8, row: 1, level: 2, Vehicle: empty
+  -> Large Spot, num: 9, row: 1, level: 2, Vehicle: empty
+  -> Compact Spot, num: 10, row: 1, level: 2, Vehicle: empty
+  -> Compact Spot, num: 11, row: 2, level: 2, Vehicle: empty
+  -> Compact Spot, num: 12, row: 2, level: 2, Vehicle: empty
+  -> Compact Spot, num: 13, row: 2, level: 2, Vehicle: empty
+  -> Compact Spot, num: 14, row: 2, level: 2, Vehicle: empty
+  -> Compact Spot, num: 15, row: 2, level: 2, Vehicle: empty
+  -> Compact Spot, num: 16, row: 2, level: 2, Vehicle: empty
+  -> Compact Spot, num: 17, row: 2, level: 2, Vehicle: empty
+  -> Compact Spot, num: 18, row: 2, level: 2, Vehicle: empty
+  -> Compact Spot, num: 19, row: 2, level: 2, Vehicle: empty
+  -> Compact Spot, num: 20, row: 2, level: 2, Vehicle: empty
+
+Process finished with exit code 0
